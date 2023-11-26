@@ -1,24 +1,62 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Overreacted Blog
+
+[![GitHub license](https://img.shields.io/github/license/zarqani/overreacted)](https://github.com/zarqani/overreacted/blob/main/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/zarqani/overreacted)](https://github.com/zarqani/overreacted/issues)
+[![GitHub stars](https://img.shields.io/github/stars/zarqani/overreacted)](https://github.com/zarqani/overreacted/stargazers)
+
+## Overview
+
+Overreacted Blog is a front-end application built with Next.js, Tailwind CSS, Redux, Jest, and TypeScript. The project incorporates key features such as light and dark mode support, data caching using the Fetch API, and follows a clean architecture.
+
+## Features
+
+- **Next.js**: Utilize the power of Next.js for server-side rendering and a smooth, optimized React application.
+- **Tailwind CSS**: Create stylish and responsive user interfaces with the help of Tailwind CSS.
+- **Redux**: Manage state efficiently with Redux for a predictable and scalable state container.
+- **Jest**: Ensure the reliability of your codebase with Jest for testing React components and logic.
+- **TypeScript**: Enhance code maintainability and catch errors early with TypeScript.
+- **Light and Dark Mode**: Offer users a personalized experience with both light and dark mode support.
+- **Data Caching**: Optimize performance by implementing data caching with the Fetch API.
+- **Clean Architecture**: Follow best practices for clean and maintainable code architecture.
+- **Optimize** This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
 ## Getting Started
 
-First, run the development server:
+1. **Clone the repository:**
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+   ```bash
+   git clone https://github.com/zarqani/overreacted.git
+   cd overreacted
+
+   ```
+
+2. **Run the development server**
+
+   ```bash
+    npm run dev
+    # or
+    yarn dev
+    # or
+    pnpm dev
+    # or
+    bun dev
+   ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+3. **Run Unit Test**
+
+   ```bash
+    npm run test
+    # or
+    yarn test
+    # or
+    pnpm test
+    # or
+    bun test
+   ```
 
 ## Learn More
 
