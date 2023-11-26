@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (prefers-color-scheme: dark) {
+  body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@media (prefers-reduced-motion) {
+  * {
+    transition: none !important;
+    transform: none !important;
+  }
+}
+
+svg {
+  margin: 0 auto;
+}
