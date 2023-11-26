@@ -23,7 +23,7 @@ export async function request({
   };
 
   const response = await fetch(
-    `https://jsonplaceholder.typicode.com${url}`,
+    `${process.env.NEXT_PUBLIC_API_URL}${url}`,
     requestOptions
   )
     .then((response) => response.json())
