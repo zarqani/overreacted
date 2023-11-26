@@ -11,7 +11,7 @@ export const getPosts = async (): Promise<PostsProps | undefined> => {
   const response: PostsProps = await api.get(postsRoute);
   if (!response) return;
   const result: PostsProps = response
-    .sort((a: PostProps, b: PostProps) => a.id - b.id)
+    .sort((a: PostProps, b: PostProps) => b.id - a.id)
     .map((item) => ({ ...item, date: generateDate(item.id) }));
   return result;
 };
