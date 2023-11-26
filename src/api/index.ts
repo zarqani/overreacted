@@ -11,7 +11,7 @@ export async function request({
   headers?: any;
   method?: string;
 }) {
-  const token = "eeee"; // localStorage.getItem("token");
+  const token = "eeee"; //[TODO]: get token from cookie
   const requestOptions = {
     method,
     ...(body && { body: JSON.stringify(body) }),

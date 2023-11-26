@@ -1,7 +1,7 @@
 "use client";
 
-import IconSun from "../../../Icons/IconSun";
-import IconMoonStars from "../../../Icons/IconMoonStars";
+import IconSun from "@/components/Icons/IconSun";
+import IconMoonStars from "@/components/Icons/IconMoonStars";
 import { toggleColorScheme } from "@/lib/store/global/global.slice";
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
@@ -10,7 +10,7 @@ import { setDarkClassName } from "@/utils/common";
 export default function ToggleColorScheme() {
   const dispatch = useDispatch();
   const colorScheme =
-    useSelector((state) => state.global.colorScheme) ||
+    useSelector((state) => state?.global?.colorScheme) ||
     localStorage?.colorScheme;
 
   useEffect(() => {
